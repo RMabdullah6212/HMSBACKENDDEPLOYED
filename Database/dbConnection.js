@@ -12,3 +12,5 @@ export const dbConnection = async () => {
     throw error;
   }
 };
+
+export { dbConnection as dbconnection };
